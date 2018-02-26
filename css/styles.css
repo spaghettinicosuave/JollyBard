@@ -1,6 +1,11 @@
 /*global*/
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
+body {
+  background-image: url(../img/wood.jpg);
+  background-size: cover;
+}
+
 .white-text {
   color: #fff;
 }
@@ -15,6 +20,40 @@
   color: #f27680;
 }
 
+.nav {
+  background-color: #003300 !important;
+  border-style: none;
+  font-weight: 900 !important;
+}
+
+.nav-tabs {
+  background-color: #003300 !important;
+  border-style: none !important;
+  font-weight: 900 !important;
+}
+
+.nav a {
+  color: yellow !important;
+}
+
+.active a {
+  background-color: tan !important;
+  border-style: none;
+  color: black !important;
+}
+
+.nav-tabs>li>a:hover {
+  background-color: tan !important;
+  border-style: none;
+  color: black !important;
+}
+
+.dropdown-menu {
+  background-color: tan !important;
+  border-style: none;
+}
+
+
 /*global button changes*/
 
 .btn {
@@ -25,18 +64,16 @@
   width: 10em;
 }
 
+.btn:active {
+  transform: scale(0.8);
+}
+
 /*thumbnail color override*/
 
 .thumbnail {
   background-color: rgba(0, 0, 0, 0) !important;
   border-style: none;
 }
-
-
-.btn:active {
-  transform: scale(0.8);
-}
-
 
 /*item refers to the styling of items in the carosel */
 .item {
