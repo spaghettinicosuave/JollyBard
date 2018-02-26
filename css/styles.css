@@ -15,6 +15,14 @@
   color: #f27680;
 }
 
+/*global button changes*/
+
+.btn {
+  background-color: yellow;
+  color: green;
+}
+
+
 /*item refers to the styling of items in the carosel */
 .item {
   height: 20em;
