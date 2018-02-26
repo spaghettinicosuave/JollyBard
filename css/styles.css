@@ -18,9 +18,9 @@
 /*global button changes*/
 
 .btn {
-  background-color: yellow;
-  color: green;
-  font-weight: 900;
+  background-color: yellow !important;
+  color: green !important;
+  font-weight: 900 !important;
 }
 
 
