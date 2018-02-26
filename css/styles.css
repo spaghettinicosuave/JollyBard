@@ -18,9 +18,15 @@
 /*global button changes*/
 
 .btn {
-  background-color: yellow !important;
-  color: green !important;
+  background-color: #003300 !important;
+  border-style: none;
+  color: yellow !important;
   font-weight: 900 !important;
+  width: 10em;
+}
+
+.btn:active {
+  transform: scale(0.8);
 }
 
 
